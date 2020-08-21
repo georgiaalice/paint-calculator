@@ -8,7 +8,7 @@ public class Calculations {
     }
 
     public int calculateAmountOfPaintRequired(int width, int length, int height) {
-        int areaOfWalls = (width + width + length + length) * height;
+        int areaOfWalls = 2 * (width) + 2 * (length) * height;
 
         return (int) Math.ceil(areaOfWalls / METRES_SQUARED_PER_LITRE);
     }
