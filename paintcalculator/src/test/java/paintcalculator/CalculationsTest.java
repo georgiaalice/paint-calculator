@@ -13,4 +13,14 @@ public class CalculationsTest {
         Assert.assertEquals(50, calculations.calculateAreaOfFloor(5, 10));
 
     }
+
+    @Test
+    public void calculateAmountOfPaintRequired() {
+
+        Calculations calculations = new Calculations();
+
+        Assert.assertEquals(4, calculations.calculateAmountOfPaintRequired(5, 10, 2));
+
+    }
+
 }
