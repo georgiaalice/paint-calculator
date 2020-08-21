@@ -13,4 +13,8 @@ public class Calculations {
         return (int) Math.ceil(areaOfWalls / METRES_SQUARED_PER_LITRE);
     }
 
+    public int calculateVolumeOfRoom(int width, int length, int height) {
+        return width * length * height;
+    }
+
 }

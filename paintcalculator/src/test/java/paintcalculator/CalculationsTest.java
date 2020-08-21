@@ -23,4 +23,13 @@ public class CalculationsTest {
 
     }
 
+    @Test
+    public void calculateVolumeOfRoom() {
+
+        Calculations calculations = new Calculations();
+
+        Assert.assertEquals(100, calculations.calculateVolumeOfRoom(5, 10, 2));
+
+    }
+
 }
